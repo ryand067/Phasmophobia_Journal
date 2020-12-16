@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phasmophobiajournal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhasmophobiaJournal">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.PhasmophobiaJournal.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Journal_Contents_Activity" />
+        <activity android:name=".IntroducingGhosts_Activity1" />
+        <activity android:name=".IntroducingGhosts_Activity2" />
+        <activity android:name=".Hunters_Sanity_Activity" />
+        <activity android:name=".Spirit_Activity" />
+        <activity android:name=".Wraith_Activity" />
+        <activity android:name=".Phantom_Activity" />
+        <activity android:name=".Poltergeist_Activity" />
+        <activity android:name=".Banshee_Activity" />
+        <activity android:name=".Jinn_Activity" />
+        <activity android:name=".Mare_Activity" />
+        <activity android:name=".Revenant_Activity" />
+        <activity android:name=".Shade_Activity" />
+        <activity android:name=".Demon_Activity" />
+        <activity android:name=".Yurei_Activity" />
+        <activity android:name=".Oni_Activity" />
+        <activity android:name=".Tools1_Activity" />
+        <activity android:name=".Tools2_Activity" />
+        <activity android:name=".Gathering_Evidence1_Activity" />
+        <activity android:name=".Gathering_Evidence2_Activity" />
+        <activity android:name=".Evidence_Activity" />
+    </application>
+
+</manifest>
